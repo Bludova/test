@@ -1,5 +1,5 @@
 <form method='POST'>
-  <select name='assigned_user_id[]'>
+  <select name='assigned_user_id'>
     <?php
       foreach ($results as $keys => $values) {
     ?>
@@ -8,5 +8,5 @@
       }
     ?>
   </select>
-  <input type='submit' name='assign' id="2" value='Переложить ответственность'>
+  <input type='submit' name='assign' value='Переложить ответственность'>
   </form>
